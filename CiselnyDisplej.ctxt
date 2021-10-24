@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CiselnyDisplej
+comment0.text=\r\n\ Trieda\ reprezentujuca\ jeden\ ciselny\ displej\ v\ digitalnych\ hodinach.\r\n\ Stara\ sa\ o\ zmenu\ hodnoty\ v\ zadanych\ hraniciach\ a\ o\ formatovanie\r\n\ cisla\ do\ tvaru\ dvojcifernej\ hodnoty.\r\n
+comment1.params=hornaHranica
+comment1.target=CiselnyDisplej(int)
+comment1.text=\r\n\ Inicializuje\ ciselny\ displej\ na\ hodnotu\ 0.\ Horna\ hranica\ sa\ pouzije\r\n\ ta,\ co\ zada\ pouzivatel\ v\ parametri.\r\n\ @param\ pthis.hornaHranica\ Predstavuje\ cislo,\ ktore\ hodnota\ ciselneho\r\n\ displeja\ nemoze\ dosiahnut.\r\n
+comment2.params=
+comment2.target=int\ getHodnota()
+comment2.text=\r\n\ Vrati\ aktualnu\ hodnotu\ ciselneho\ displeja\ vo\ forme\ celeho\ cisla\ typu\r\n\ int.\r\n
+comment3.params=hodnota
+comment3.target=void\ setHodnota(int)
+comment3.text=\r\n\ Nastavi\ novu\ hodnotu\ ciselneho\ displeja\ vo\ forme\ celeho\ cisla\ typu\ int.\r\n\ Kontroluje\ platnost\ zadavaneho\ cisla.\ V\ pripade,\ ze\ je\ mimo\ rozsah,\r\n\ nechava\ povodnu\ hodnotu.\r\n\ \r\n\ @param\ hodnota\ hodnota,\ ktora\ sa\ ma\ nastavit.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getHodnotaAkoRetazec()
+comment4.text=\r\n\ Vrati\ hodnotu\ ciselneho\ displeja\ vo\ forme\ retazca,\ pricom\ hodnota\ je\r\n\ vzdy\ vo\ forme\ dvojciferneho\ cisla\ s\ pripadnou\ uvodnou\ nulou.\r\n
+comment5.params=
+comment5.target=void\ krok()
+comment5.text=\r\n\ Zvacsi\ hodnotu\ na\ ciselnom\ displeji\ o\ hodnotu\ jedna.\ Ak\ dosiahne\ hornu\r\n\ hranicu,\ pokracuje\ znovu\ od\ nuly.\r\n
+numComments=6
